@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+	<bean id="e1" class="com.Employee" scope="prototype" autowire="constructor" />
+
+
+	<bean id="d1" class="com.Department">
+		<property name="deptId" value="10" />
+		<property name="deptName" value="IT" />
+	</bean>
+
+
+	<bean id="d2" class="com.Department">
+		<property name="deptId" value="11" />
+		<property name="deptName" value="HR" />
+	</bean>
+
+
+	<bean id="d3" class="com.Department">
+		<property name="deptId" value="12" />
+		<property name="deptName" value="Accounts" />
+	</bean>
+	
+	<bean id="dept" class="com.Department">
+		<property name="deptId" value="13" />
+		<property name="deptName" value="Training" />
+	</bean>
+
+
+
+
+
+
+
+</beans>

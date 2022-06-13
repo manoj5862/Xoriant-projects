@@ -1,0 +1,5 @@
+http://localhost:8081/api/products/filter/price?&minPrice=34&maxPrice=56 -> MVC app
+http://localhost:8081/api/products/filter/price/34/56
+
+
+
